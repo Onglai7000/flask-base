@@ -11,7 +11,7 @@ RUN gem install sass
 #MAINTANER Your Name "youremail@domain.tld"
 ENV MAIL_USERNAME=yourmail@test.com
 ENV MAIL_PASSWORD=testpass
-ENV SECRET_KEY=de9a765dfaa0c3a45d5519abdc6f1f51
+ENV SECRET_KEY=SuperRandomStringToBeUsedForEncryptio
 # We copy just the requirements.txt first to leverage Docker cache
 COPY ./requirements.txt /app/requirements.txt
 
